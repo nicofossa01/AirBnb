@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.city{
+    width: 100%;
+    height: 100vh;
+    border: solid 1px black;
+    background-size: cover;
+    position: relative;
+
+}
+
+.city span{
+    background: rgba(16, 15, 15, 0.556);
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#dam{
+    background-image: url('img/amsterdam.jpeg');
+}
+#torino{
+    background-image: url('img/Torino.jpg');
+}
+#roma{
+    background-image: url('img/roma.jpg');
+}
